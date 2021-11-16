@@ -79,6 +79,7 @@ function getPosts (){
         .catch(err => console.log(err));
 }
 
+//add post
 function addPost (e){
     e.preventDefault();
     let title = document.getElementById('title').value;
